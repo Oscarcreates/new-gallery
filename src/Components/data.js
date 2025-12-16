@@ -1,3 +1,4 @@
+
 export const homeImages = [
 { id: 1, src: 'https://res.cloudinary.com/dquamrc0f/image/upload/w_1200,q_auto,f_auto/v1765899668/IMG_9893_bou1sl.jpg', alt: 'Photo 1' },
 { id: 2, src: 'https://res.cloudinary.com/dquamrc0f/image/upload/w_1200,q_auto,f_auto/v1765899658/IMG_9904_nhy6ug.jpg', alt: 'Photo 2' },
