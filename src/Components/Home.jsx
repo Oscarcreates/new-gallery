@@ -12,7 +12,12 @@ function Home() {
 
   // Load initial batch on mount
   useEffect(() => {
-    loadNextBatch();
+    // Small delay to let masonry layout initialize
+    const timer = setTimeout(() => {
+      loadNextBatch();
+    }, 100);
+    
+    return () => clearTimeout(timer);
   }, []);
 
   // Setup Intersection Observer for infinite scroll
@@ -36,15 +41,22 @@ function Home() {
   const loadNextBatch = () => {
     setLoading(true);
     
-    setTimeout(() => {
-      const start = currentBatch * BATCH_SIZE;
-      const end = start + BATCH_SIZE;
-      const nextBatch = allImages.slice(start, end);
-      
+    const start = currentBatch * BATCH_SIZE;
+    const end = start + BATCH_SIZE;
+    const nextBatch = allImages.slice(start, end);
+    
+    // Load first batch instantly, add delay for subsequent batches
+    if (currentBatch === 0) {
       setVisibleImages(prev => [...prev, ...nextBatch]);
       setCurrentBatch(prev => prev + 1);
       setLoading(false);
-    }, 500);
+    } else {
+      setTimeout(() => {
+        setVisibleImages(prev => [...prev, ...nextBatch]);
+        setCurrentBatch(prev => prev + 1);
+        setLoading(false);
+      }, 500);
+    }
   };
 
   return (

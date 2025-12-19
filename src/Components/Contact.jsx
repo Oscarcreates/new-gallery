@@ -94,19 +94,21 @@ const Contact = () => {
         <div className='flex flex-col items-center'>
           <MdEmail size={50} className='text-red-500' />
           <h1 className='text-amber-800 font-medium py-2 text-2xl'>Company Email</h1>
-          <p>thatimagemaker@gmail.com</p>
+          <p>cistystudio@gmail.com </p>
         </div>
 
         <div className='text-white p-6  bg-red-500 md:w-[300px] flex flex-col items-center text-center w-[300px] mx-auto md:mx-0 my-6 md:my-0'>
           <IoLocationOutline size={50} />
           <h1 className='font-medium py-2 text-2xl'>Office Location</h1>
-          <p>Westbrook Hotel, by Hospital Junction, off Port Harcourt Road, New Owerri, Owerri 460281, Imo</p>
+          <p>Otumbadi plaza , Beside Ten Naira junction , IMSU front Gate , Owerri imo state .</p>
         </div>
 
         <div className='flex flex-col items-center'>
           <FaPhoneAlt size={50} className='text-red-500' />
           <h1 className='text-amber-800 font-medium py-2 text-2xl'>Office Phone Number</h1>
-          <p>+234 810 282 9324</p>
+          <p>+234 803 816 3489</p>
+          <p>+234 808 204 2447</p>
+                    
         </div>
       </div>
 
