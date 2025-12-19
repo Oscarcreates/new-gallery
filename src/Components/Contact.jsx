@@ -186,7 +186,7 @@ const Contact = () => {
               value={formData.other_shoot_type}
               onChange={handleChange}
               placeholder='Please list any other type of shoot you may want'
-              className='w-full p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-red-500 placeholder-gray-300'
+              className='w-full p-4 border-2 text-xs border-gray-300 rounded-lg focus:outline-none focus:border-red-500 placeholder-gray-300'
             />
           </div>
 

@@ -13,7 +13,8 @@ const About = () => {
 
         <div className='flex flex-col md:flex-row md:grid-cols-2 justify-center items-center md:items-start max-w-[1400px] mx-auto'>
             <div className='w-full md:w-[600px] p-4 sm:p-6 md:p-[4rem]'>
-                <img src={founder} alt="Founder" className='w-full h-auto rounded-lg shadow-lg' />
+                <img src="https://res.cloudinary.com/dquamrc0f/image/upload/w_1200,q_auto,f_auto/v1766131246/_TY_1131_Edit_odgdjn.jpg" alt="Founder" className='w-full h-auto rounded-lg shadow-lg' />
+                
             </div>
 
             <div className='w-full md:w-[700px] p-4 sm:p-6 md:p-[4rem]'>
