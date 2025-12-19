@@ -14,13 +14,17 @@ const About = () => {
         <div className='flex flex-col md:flex-row md:grid-cols-2 justify-center items-center md:items-start max-w-[1400px] mx-auto'>
             <div className='w-full md:w-[600px] p-4 sm:p-6 md:p-[4rem]'>
                 <img src="https://res.cloudinary.com/dquamrc0f/image/upload/w_1200,q_auto,f_auto/v1766131246/_TY_1131_Edit_odgdjn.jpg" alt="Founder" className='w-full h-auto rounded-lg shadow-lg' />
+                <div className='text-center pt-4'>
+                    <p className='font-bold text-2xl'>Godswill Izuchukwu Ogbonna</p>
+                    <p>CEO Cisty Studios</p>
+                </div>
                 
             </div>
 
             <div className='w-full md:w-[700px] p-4 sm:p-6 md:p-[4rem]'>
                 <h1 className='pb-4 text-xl md:text-2xl font-bold'>About Cisty Studios</h1>
                 <p className='text-base leading-relaxed'>
-                    Cisty Studios is a Nigerian–based creative house specializing in cinematography, photography and high-end visual production. Over the years, it has evolved into a multi-disciplinary brand that blends film, beauty and artistry to deliver compelling visual experiences for clients across different industries.
+                    Godswill Izuchukwu Ogbonna, CEO Cisty Studios is a Nigerian based creative specializing in cinematography, photography and high-end visual production. Over the years, it has evolved into a multi-disciplinary brand that blends film, beauty and artistry to deliver compelling visual experiences for clients across different industries.
                     
                     <div className='pt-4'>
                         The studio's journey was inspired by a passion for storytelling and a desire to create visuals that resonate deeply with audiences. What began as a focus on photography and filmmaking has grown into a full creative ecosystem. Today, Cisty Studios produces commercials, movies, documentaries and event coverage, combining technical precision with a strong artistic identity. Through its unique approach to lighting, composition and narrative direction, the studio has positioned itself as a trusted name in Nigeria's visual landscape.
